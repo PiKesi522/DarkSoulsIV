@@ -1,0 +1,54 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class SceneFade : MonoBehaviour
+{
+    public Image Mask;
+    [SerializeField] private float alpha;
+    [SerializeField] private float FadeInalphaMax;
+    [SerializeField] private float FadeOutalphaMax;
+    [SerializeField] private float alphaRate;
+
+    void Start(){
+        SceneFadeIn();
+    }
+
+    public void SceneFadeIn(){
+        StartCoroutine(FadeIn());
+    }
+
+    public void SceneFadeOut(){
+        StartCoroutine(FadeOut());
+    }
+    
+    IEnumerator FadeIn(){
+        alpha = alphaMax / 255;
+
+        while (alpha > 0)
+        {
+            alpha -= Time.deltaTime * 0.25f;
+            Mask.color = new Color(0,0,0,alpha);
+            yield return new WaitForSeconds(0);
+        }
+
+        Mask.enabled = false;
+    }
+
+    IEnumerator FadeOut(){
+        Mask.enabled = true;
+
+        alpha = 0;
+
+        while (alpha < (alphaMax / 255))
+        {
+            alpha += Time.deltaTime * 0.75f;
+            Mask.color = new Color(0,0,0,alpha);
+            yield return new WaitForSeconds(0);
+        }
+
+    }
+
+
+}
