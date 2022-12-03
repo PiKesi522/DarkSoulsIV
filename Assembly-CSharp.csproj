@@ -48,6 +48,7 @@
      <Compile Include="Assets\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\EmptyContext.cs" />
      <Compile Include="Assets\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Extensions\ControllerExtensions.cs" />
      <Compile Include="Assets\Script\UI\DeathUI.cs" />
+     <Compile Include="Assets\Script\PlayerItem.cs" />
      <Compile Include="Assets\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\AnimatorTrigger.cs" />
      <Compile Include="Assets\Script\Setting\Pause.cs" />
      <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperStateMachine.cs" />
@@ -94,6 +95,7 @@
      <Compile Include="Assets\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\ActionHandler.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.6.17\Cinemachine Example Scenes\Scenes\3rdPersonWithAimMode\ActivateOnKeypress.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.6.17\Cinemachine Example Scenes\Scenes\DualTarget\MoveAimTarget.cs" />
+     <Compile Include="Assets\Script\CharacterStateBeta.cs" />
      <Compile Include="Assets\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Lookups\Animations\KnockbackType.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.6.17\Cinemachine Example Scenes\Shared\Scripts\ExampleHelpWindow.cs" />
      <Compile Include="Assets\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\RPGCharacterController.cs" />
@@ -112,13 +114,16 @@
      <Compile Include="Assets\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Character\Attack.cs" />
      <Compile Include="Assets\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Null.cs" />
      <Compile Include="Assets\BrokenVector\LowPolyDungeon\Demo Scenes\MouseCamLook.cs" />
+     <Compile Include="Assets\Script\LevelAndMoney.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.6.17\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
-     <Compile Include="Assets\ActiveInteractionUI.cs" />
+     <Compile Include="Assets\Script\UI\ActiveInteractionUI.cs" />
      <Compile Include="Assets\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\Actions\Movement\Knockback.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.6.17\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
      <Compile Include="Assets\ExplosiveLLC\RPG Character Mecanim Animation Pack FREE\Code\IKHands.cs" />
+     <Compile Include="Assets\Script\UI\BarFade.cs" />
      <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\Code\PlayerMachine.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.6.17\Cinemachine Example Scenes\Shared\Scripts\MixingCameraBlend.cs" />
+     <Compile Include="Assets\Script\BossEvent.cs" />
      <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperCollisionType.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.6.17\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetProperty.cs" />
      <Compile Include="Assets\Script\DiscoverNewArea.cs" />
@@ -152,8 +157,11 @@
      <Compile Include="Assets\Script\NPCevent.cs" />
      <Compile Include="Assets\Script\AudioManager.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.6.17\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
-     <Compile Include="Assets\Script\CharacterStateBeta.cs" />
-     <Compile Include="Assets\Script\UI\BarFade.cs" />
+     <Compile Include="Assets\Script\BossAttacker.cs" />
+     <Compile Include="Assets\Script\GuiderEvent.cs" />
+     <Compile Include="Assets\Script\Setting\AudioSoundEffect.cs" />
+     <Compile Include="Assets\Script\Setting\GameSetting.cs" />
+     <Compile Include="Assets\Script\BlackSmithEvent.cs" />
      <None Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\README.txt" />
     <Reference Include="UnityEngine">
         <HintPath>D:\UnityProg\2020.2.7f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

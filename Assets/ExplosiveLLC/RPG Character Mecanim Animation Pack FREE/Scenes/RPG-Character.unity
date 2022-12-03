@@ -416,6 +416,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &478171144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9323291299400139, guid: 1793b75d2a749b5439fc5005469b0267, type: 3}
+  m_PrefabInstance: {fileID: 9323290274626261}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &478171146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478171144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ba4849f4c890f44947978c76596fb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 4
+  cameraTarget: {fileID: 0}
+  player: {fileID: 0}
+  cameraTargetOffsetY: 0
+  rotateSpeed: 2
+  height: 6
+  distance: 5
+  zoomAmount: 0.1
+  smoothing: 2
 --- !u!850595691 &524037390
 LightingSettings:
   m_ObjectHideFlags: 0
